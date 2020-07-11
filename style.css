@@ -2,19 +2,45 @@
     padding: 0px;
     margin: 0 auto;
 }
-body{   
+body{
+    background-image: url('watch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    margin: 0px auto;
+    margin-top: 100px;
+    width: 500px;
+    margin-left: 800px;
+}
+h2{
     text-align: center;
-    border: 5px solid red;
+    font-size: 55px;
+    margin-bottom: 15px;
 }
 h1{
     display: inline-block;
     width: 50px;
     color: #000;
 }
+button{
+    background-color: #BDC3C7;
+    padding: 15px 25px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 0px 25px;
+}
+.button{
+    text-align: center;
+}
 .time{
-    background-color: brown;
-    width: 200px;
+    text-align: center;
+    background-color: #BDC3C7;
+    width: 230px;
     padding: 80px 0px;
-    border: 1px solid blue;
+    border: 2px solid #000;
     border-radius: 100%;
+    font-weight: bold;
+    font-size: 25px;
 }
